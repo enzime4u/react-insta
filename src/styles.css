@@ -51,7 +51,8 @@
 }
 
 .feed {
-  max-width: 500px;
+  margin-top: 60px;
+  width: 500px;
   background-color: cadetblue;
   height: 100%;
 }

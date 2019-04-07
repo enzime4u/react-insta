@@ -1,10 +1,11 @@
 import React from 'react'
+import data from '../data'
 
 const ProfilePicture = (props) => {
+  const { profile_image } = props
+  console.log(profile_image)
   return (
-    <div className='profile-picture'>
-      <img src={props.profile_image} alt=""/>
-    </div>
+      <img src={profile_image} alt='profile pic'/>
   )
 }
 
