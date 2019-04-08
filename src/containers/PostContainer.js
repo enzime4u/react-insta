@@ -3,17 +3,15 @@ import PostHeader from '../components/PostHeader'
 import data from '../data'
 
 
-const Post = (props) => {
+const PostContainer = props => {
   const { postData } = props
-  console.log(postData)
+  console.log(props)
     return (
     <div>
-      <PostHeader name={postData.name} />   
+      <PostHeader profileImage={postData.profile_image} name={postData.name} />   
     </div> 
    )
 }
 
 
-export default Post
-
-
+export default PostContainer

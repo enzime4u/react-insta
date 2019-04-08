@@ -12,7 +12,7 @@ const data = [
     name: 'Alex',
     email: 'alex@me.com',
     password: 'password',
-    profile_image: 'https://placeholder.com/50',
+    profile_image: 'https://placeholder.com/150',
     upload_image: ['https://placeholder.com/300']
   }
 ]
