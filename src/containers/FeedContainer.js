@@ -4,7 +4,7 @@ import data from '../data'
 
 
 
-class Feed extends React.Component {
+class FeedContainer extends React.Component {
   render() {
     return (
       <div className='feed'>
@@ -14,4 +14,4 @@ class Feed extends React.Component {
   }
 }
 
-export default Feed
+export default FeedContainer

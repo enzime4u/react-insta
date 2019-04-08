@@ -6,7 +6,7 @@ import LoginComponent from './containers/LoginComponent'
 import ForgotPassword from './containers/ForgotPassword'
 import Register from './containers/Register'
 import Navigation from './components/Navigation'
-import Feed from './containers/FeedContainer'
+import FeedContainer from './containers/FeedContainer'
 
 
 const App = (props) => {
@@ -20,7 +20,7 @@ const App = (props) => {
         <Route path='/forgot-password' component={ForgotPassword} />
       </Router> */}
       
-        <Feed />
+        <FeedContainer />
       
       </Router>
     </div>
