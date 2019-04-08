@@ -3,11 +3,11 @@ import ProfilePicture from './ProfilePicture'
 import data from '../data';
 
 const PostHeader = props => {
-  const { profileImage } = props
-  console.log(profileImage)
+  const { profileImage, name } = props
   return(
     <div>
-      <ProfilePicture  src={profileImage}/>
+      <ProfilePicture  profile_image={profileImage}/>
+      <span>{name}</span>
     </div>
      
   )
