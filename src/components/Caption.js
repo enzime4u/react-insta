@@ -1,12 +1,12 @@
 import React from 'react'
+import SocialButtons from './SocialButtons'
+import Comment from './Comment'
 
 const Caption = () => {
   return(
-    <div>
-      <span>some text</span>
-      <span>some text</span>
-      <span>some text</span>
-      <span>some text</span>
+    <div className='caption'>
+      <SocialButtons />
+      <Comment />      
     </div>
 
   )

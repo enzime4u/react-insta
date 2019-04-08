@@ -53,7 +53,20 @@
 .feed {
   margin: 60px auto;
   max-width: 700px;
-  background-color: cadetblue;
   height: 100%;
 }
 
+.post-container {
+    background-color: cadetblue;
+}
+
+.social-buttons {
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.btn-social {
+  margin-left: 10px;
+}
